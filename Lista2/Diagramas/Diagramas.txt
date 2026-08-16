@@ -1,0 +1,136 @@
+Ex 1 e 2
++--------------------------------+
+|             Pessoa             |
++--------------------------------+
+| - nome : String                |
+| - idade : int                  |
++--------------------------------+
+| + getNome() : String           |
+| + setNome(String) : void       |
+| + getIdade() : int             |
+| + setIdade(int) : void         |
++--------------------------------+
+
+3 — ContaBancaria
++--------------------------------+
+|        ContaBancaria           |
++--------------------------------+
+| - titular : String             |
+| - saldo : double               |
+| - numeroConta : int            |
++--------------------------------+
+| + getTitular() : String        |
+| + setTitular(String) : void    |
+| + getSaldo() : double          |
+| + getNumeroConta() : int       |
+| + setNumeroConta(int) : void   |
+| + depositar(double) : void     |
+| + sacar(double) : void         |
++--------------------------------+
+
+4 — Funcionario
++--------------------------------+
+|          Funcionario           |
++--------------------------------+
+| - nome : String                |
+| - cargo : String               |
+| - salario : double             |
++--------------------------------+
+| + getNome() : String           |
+| + setNome(String) : void       |
+| + getCargo() : String          |
+| + setCargo(String) : void      |
+| + getSalario() : double        |
+| + setSalario(double) : void    |
++--------------------------------+
+
+5 — Aluno
++--------------------------------+
+|             Aluno              |
++--------------------------------+
+| - nome : String                |
+| - nota1 : double               |
+| - nota2 : double               |
++--------------------------------+
+| + getNome() : String           |
+| + setNome(String) : void       |
+| + getNota1() : double          |
+| + setNota1(double) : void      |
+| + getNota2() : double          |
+| + setNota2(double) : void      |
++--------------------------------+
+
+6 — Produto
++-------------------------------+
+|           Produto             |
++-------------------------------+
+| - nome : String               |
+| - preco : double              |
++-------------------------------+
+| + getNome() : String          |
+| + setNome(String) : void      |
+| + getPreco() : double         |
+| + setPreco(double) : void     |
++-------------------------------+
+
+7 — Livro
++--------------------------------+
+|             Livro              |
++--------------------------------+
+| - titulo : String              |
+| - autor : String               |
+| - disponivel : boolean         |
++--------------------------------+
+| + Livro()                      |
+| + getTitulo() : String         |
+| + setTitulo(String) : void     |
+| + getAutor() : String          |
+| + setAutor(String) : void      |
+| + getDisponivel() : boolean    |
+| + emprestar() : void           |
+| + devolver() : void            |
++--------------------------------+
+
+8 — Termostato
++---------------------------------------+
+|              Termostato               |
++---------------------------------------+
+| - temperaturaAtual : double           |
+| - temperaturaDesejada : double        |
++---------------------------------------+
+| + getTemperaturaAtual() : double      |
+| + setTemperaturaAtual(double) : void  |
+| + getTemperaturaDesejada() : double   |
+| + setTemperaturaDesejada(double):void |
++---------------------------------------+
+
+9 — Usuario
++--------------------------------+
+|            Usuario             |
++--------------------------------+
+| - nome : String                |
+| - senha : String               |
++--------------------------------+
+| + getNome() : String           |
+| + setNome(String) : void       |
+| + getSenha() : String          |
+| + setSenha(String) : void      |
++--------------------------------+
+
+
+10 — Carro
++--------------------------------------+
+|                 Carro                |
++--------------------------------------+
+| - marca : String                     |
+| - modelo : String                    |
+| - velocidadeAtual : int              |
++--------------------------------------+
+| + getMarca() : String                |
+| + setMarca(String) : void            |
+| + getModelo() : String               |
+| + setModelo(String) : void           |
+| + getVelocidadeAtual() : int         |
+| + acelerar(int) : void               |
+| + frear(int) : void                  |
++--------------------------------------+
